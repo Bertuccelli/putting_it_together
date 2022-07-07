@@ -1,6 +1,7 @@
-import React, {Component} from 'react';
 import './App.css';
+import React from 'react';
 import PersonCard from './component/PersonCard';
+import StateComponent from './component/StateComponent';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       age={39}
       hairColor="Black"
       />
+    <StateComponent personAge = {39}/>
 
       <PersonCard 
       lastName="Simpson"
@@ -18,6 +20,7 @@ function App() {
       age={36}
       hairColor="Blue"
       />
+    <StateComponent personAge = {36}/>
 
       <PersonCard 
       lastName="Simpson"
@@ -25,6 +28,7 @@ function App() {
       age={10}
       hairColor="Yellow"
       />
+    <StateComponent personAge = {10}/>
 
       <PersonCard 
       lastName="Simpson"
@@ -32,6 +36,7 @@ function App() {
       age={8}
       hairColor="Yellow"
       />
+    <StateComponent personAge = {8}/>
 
       <PersonCard 
       lastName="Simpson"
@@ -39,6 +44,7 @@ function App() {
       age={1}
       hairColor="Yellow"
       />
+    <StateComponent personAge = {1}/>
     </div>
   );
 }
